@@ -1,7 +1,7 @@
-name: Master push CI/CD
+name: Main branch CI/CD
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   lint: 
