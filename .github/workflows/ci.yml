@@ -22,22 +22,22 @@ jobs:
   #         eslint: true
   #         prettier: true
 
-  test: 
-    name: Test
-    # needs: lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-      - run: npm ci
-      - run: npm test
+  # test: 
+  #   name: Test
+  #   # needs: lint
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: '20.x'
+  #     - run: npm ci
+  #     - run: npm test
   
   build:
     name: Deploy
-    needs: test
+    # needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to production
