@@ -2,6 +2,7 @@
 
 This is a Note-Taking App created for a midterm project. The app allows users to register, log in, create, view, and delete notes. It uses MongoDB for data storage, Express.js for the backend, and a simple frontend with HTML, CSS, and JavaScript. 
 
+
 ## Features
 - User registration
 - User login with session management
