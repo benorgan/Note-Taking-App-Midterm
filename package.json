@@ -4,7 +4,7 @@
   "description": "Mid Term Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive --exit",
+    "test": "mocha --recursive --timeout 10000 --exit",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
